@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResponseCache name="RC-ReferenceData">
+  <CacheKey>
+    <Prefix>reference-data-orders</Prefix>
+  </CacheKey>
+  <SkipCacheLookup>request.header.bypass-cache = "true"</SkipCacheLookup>
+  <ExpirySettings>
+    <TimeoutInSeconds>60</TimeoutInSeconds>
+  </ExpirySettings>
+  <ExcludeErrorResponse>true</ExcludeErrorResponse>
+</ResponseCache>

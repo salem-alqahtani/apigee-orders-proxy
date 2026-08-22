@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage name="AM-Debug-Enrichment-Body">
+  <AssignVariable>
+    <Name>debug_sc_body</Name>
+    <Ref>enrichmentResponse.content</Ref>
+  </AssignVariable>
+  <AssignVariable>
+    <Name>debug_sc_status</Name>
+    <Ref>enrichmentResponse.status.code</Ref>
+  </AssignVariable>
+  <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</AssignMessage>

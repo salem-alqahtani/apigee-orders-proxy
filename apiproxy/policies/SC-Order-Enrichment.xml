@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceCallout name="SC-Order-Enrichment">
+  <Response>enrichmentResponse</Response>
+  <Timeout>30000</Timeout>
+  <HTTPTargetConnection>
+    <URL>https://mocktarget.apigee.net/user?user=Enrichment-Service</URL>
+  </HTTPTargetConnection>
+</ServiceCallout>

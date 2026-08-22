@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Quota name="Q-Consumer-Limit" type="rollingwindow">
+  <Allow count="10"/>
+  <Interval>1</Interval>
+  <TimeUnit>minute</TimeUnit>
+  <Identifier ref="request.header.x-apikey"/>
+  <Distributed>true</Distributed>
+  <Synchronous>true</Synchronous>
+</Quota>

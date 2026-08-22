@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ExtractVariables name="EV-Order-Id">
+  <Source>request</Source>
+  <URIPath>
+    <Pattern ignoreCase="true">/orders/{orderId}</Pattern>
+  </URIPath>
+  <VariablePrefix>order</VariablePrefix>
+  <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+</ExtractVariables>

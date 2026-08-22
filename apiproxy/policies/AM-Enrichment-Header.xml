@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage name="AM-Enrichment-Header">
+  <Set>
+    <Headers>
+      <Header name="x-enrichment-status">completed</Header>
+    </Headers>
+  </Set>
+</AssignMessage>

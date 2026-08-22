@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage name="AM-Legacy-Target">
+  <AssignVariable>
+    <Name>target.copy.pathsuffix</Name>
+    <Value>false</Value>
+  </AssignVariable>
+  <AssignVariable>
+    <Name>target.url</Name>
+    <Template>{private.targetBaseUrl}/user?user=Order-{order.orderId}</Template>
+  </AssignVariable>
+  <Set>
+    <Headers>
+      <Header name="x-source-system">apigee-training</Header>
+    </Headers>
+  </Set>
+</AssignMessage>

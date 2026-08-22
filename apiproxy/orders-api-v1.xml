@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="27" name="orders-api-v1">
+  <DisplayName>orders-api-v1</DisplayName>
+  <Description>Training order api</Description>
+  <CreatedAt>1787132821994</CreatedAt>
+  <LastModifiedAt>1787132821994</LastModifiedAt>
+  <BasePaths>/orders/v1</BasePaths>
+  <Policies>
+    <Policy>AM-Operation-Header</Policy>
+    <Policy>AM-Create-Operation-Header</Policy>
+    <Policy>AM-Revision-Header</Policy>
+    <Policy>EV-Order-Id</Policy>
+    <Policy>AM-Legacy-Target</Policy>
+    <Policy>KVM-Get-Target-Base</Policy>
+    <Policy>SC-Order-Enrichment</Policy>
+    <Policy>AM-Enrichment-Header</Policy>
+    <Policy>AM-Debug-Enrichment-Body</Policy>
+    <Policy>FC-Common-Governance</Policy>
+    <Policy>RF-Validation</Policy>
+    <Policy>AM-Fault-Client</Policy>
+    <Policy>AM-Fault-Auth</Policy>
+    <Policy>AM-Fault-Server</Policy>
+    <Policy>VA-API-Key</Policy>
+    <Policy>OAuthV2-Generate-Access-Token</Policy>
+    <Policy>OAuthV2-Verify-Access-Token</Policy>
+    <Policy>JTP-Orders</Policy>
+    <Policy>SA-Protect-Backend</Policy>
+    <Policy>Q-Consumer-Limit</Policy>
+    <Policy>RC-ReferenceData</Policy>
+    <Policy>RF-Simulate-503</Policy>
+  </Policies>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </ProxyEndpoints>
+  <TargetEndpoints>
+    <TargetEndpoint>default</TargetEndpoint>
+  </TargetEndpoints>
+</APIProxy>

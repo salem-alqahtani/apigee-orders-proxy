@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations name="KVM-Get-Target-Base" mapIdentifier="orders-config">
+  <Get assignTo="private.targetBaseUrl">
+    <Key>
+      <Parameter>targetBaseUrl</Parameter>
+    </Key>
+  </Get>
+  <Scope>environment</Scope>
+</KeyValueMapOperations>
